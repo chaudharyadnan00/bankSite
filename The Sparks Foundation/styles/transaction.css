@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #4FC3A1;
+    /* color: ; */
+}
+
+#box {
+    text-align: center;
+    border: 1px solid #909090;
+    width: 30%;
+    padding: 3%;
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    margin-top: 130px;
+    font-size: 20px;
+    box-shadow: 1px gray;
+    /* z-index: 15; */
+}
+
+#submitBtn {
+    padding: 8px 15px;
+    border: none;
+    border: 2px solid #4FC3A1;
+    color: white;
+    border-radius: 8px;
+    background-color: #324960;
+    width: 30%;
+
+}
+
+
+html,
+body {
+  overflow: hidden;
+  background: #262b2e;
+  /* z-index: 5; */
+}
+
+#wrapper {
+  height:100%;
+  width:100%;
+  text-align: center;
+  display: table;
+  position:absolute;
+}
+
+#title {
+  display: table-cell;
+  vertical-align: middle;
+  z-index: 999;
+}
+
+#title h2 {
+  color: #fff;
+  font-size: 45px;
+  font-family: "museo-slab";
+}
+
+#title h3 {
+  color: #fff;
+  font-size: 25px;
+  font-family: "museo-sans";
+  font-weight: 300
+}
+
+
+#wrapper canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1950px;
+  height: auto; 
+}
+
+#canvas {
+  z-index: 1;
+}
+#canvasbg {
+  z-index: -10;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  filter: blur(3px);
+  opacity: 0.6;
+}
